@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Productivity Pulse</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="todo-container">
+    <h1 class="pulse">Productivity Pulse 🔥</h1>
+    <h3>Stay focused, stay productive!</h3>
+
+    <div class="progress-container">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <section class="add-task">
+      <h2>Add Your Mission</h2>
+      <input type="text" id="taskInput" placeholder="e.g., Drink Water" />
+      <button onclick="addTask()">Add Task</button>
+    </section>
+
+    <section class="tasks">
+      <h2>Tasks</h2>
+      <ul id="taskList"></ul>
+    </section>
+
+    <section class="completed-tasks">
+      <h2>✅ Completed Missions</h2>
+      <ul id="completedList"></ul>
+    </section>
+
+    <div class="quote">
+      <p id="quoteText">"One small task today, one giant leap tomorrow."</p>
+    </div>
+
+    <footer>
+      <p>Stay in Mission Mode. Stay productive 💪</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
